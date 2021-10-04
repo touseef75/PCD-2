@@ -26,11 +26,7 @@ let imgarr = [
         
     },
      {
-         head : "غصہ آنے کے وقت کی دعا",
-         duas :  "أَعُوذُ بِاللّٰہِ مِنَ الشَّيْطٰنِ الرَّجِيمِ",
-        meanings : "میں شیطان مردود سے اللہ عزوجل کی پناہ چاہتا ہوں۔",
-        img2 :  "../images/angry.webp",
-        audios : "../audio/MasjidSeNikalneKiDua.mp3",
+        
 
 
     }
@@ -40,7 +36,7 @@ let imgarr = [
 
 let num1 = 1;
 incre.addEventListener("click",function(){
-    if(num1 == 3){
+    if(num1 == 2){
         num1 = 0;
         heading.innerHTML = imgarr[num1].head;
     dua.innerHTML = imgarr[num1].duas;
