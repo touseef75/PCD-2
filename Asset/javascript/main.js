@@ -9,15 +9,16 @@ let heading = document.getElementById("head");
 
 let imgarr = [
     {
-        head : "سوتے وقت کی دعا",
-        duas :  "َاَللّٰھُمَّ بِاسْمِكَ أَمُوتُ وَأَحْيَا",
-        meanings : "الٰہی عزوجل میں تیرے نام پر مرتا ہوں اور جیتا ہوں۔",
-        img2 :  "../images/sleepinggiff.png",
-        audios : "../audio/SoneSePehleKiDua (1).mp3",
+        head : "بارش کے وقت کی دعا",
+        duas :  "َاللَّهُمَّ صَيِّبَاً نَافِعَاً"
+,
+        meanings : "اے اللہ اسے نفع دینے والی بارش بنا دے",
+        img2 :  "../images/clouds.gif",
+        audios : "../audio/barsih ke waqt ki dua.mp3",
 
     },
    {
-       head : "گھر میں داخل ہوتے وقت کی دعا",
+        head : "گھر میں داخل ہوتے وقت کی دعا",
         duas :  "اَللّٰھُمَّ اِنِّیْ اَسْئَلُكَ خَیْرَالْمَوْلَجِ وَخَیْرَالْمَخْرَجِ",
         meanings : "اے اللہ عَزَّ وَجَلَّ ! میں تجھ سے داخل ہونے <br> نکلنے کی جگہوں کی بھلائی <br> طلب کرتا ہوں ۔",
         img2 :  "../images/enter home.gif",
@@ -25,10 +26,10 @@ let imgarr = [
         
     },
      {
-         head : "مسجد سے نکلنے کی دعا",
-         duas :  "اَللّٰهُمَّ اِنِّيْ اَسْاَلُکَ مِنْ فَضْلِکَ وَرَحْمَتِک",
-        meanings : "’’اے اللہ! میں تجھ سے تیرا فضل <br> تیری رحمت مانگتا ہوں۔‘‘",
-        img2 :  "../images/enter home.gif",
+         head : "غصہ آنے کے وقت کی دعا",
+         duas :  "أَعُوذُ بِاللّٰہِ مِنَ الشَّيْطٰنِ الرَّجِيمِ",
+        meanings : "میں شیطان مردود سے اللہ عزوجل کی پناہ چاہتا ہوں۔",
+        img2 :  "../images/angry.webp",
         audios : "../audio/MasjidSeNikalneKiDua.mp3",
 
 

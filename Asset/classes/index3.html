@@ -5,18 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>P.C.D 2</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../style.cs/style1.css">
+
 </head>
 <style>
     #incre{
-        transform: scale(0.6);
+        transform: scale(0.5);
+        margin-top: 350px;
+    }.dis{
+        display: flex;
+        justify-content: center;
+        margin-left: 100px;
     }
       @media screen and (max-width:768px){
 			 .cont{
                  height: 100%;
-                 overflow-x: hidden;
+                 overflow-y: hidden;
                  background-position:top;
              }
              #head{
@@ -31,6 +37,7 @@
 
 <body>
     <div class="container-fluid cont" style="height: 100vh; background-image: url(../images/bk1.jpg);background-size: cover;">
+        
         <br><br>
 
         <div class="head d-flex justify-content-center" style="transform: scale(1.5);color: green;">
@@ -38,16 +45,23 @@
         </div>
 
         <br>
+          <div class="dis">
 
-        <div class="dua1 d-flex justify-content-center" style="transform: scale(1);">
-            <img id="duaimg" src="../images/Kalmay-3.jpg" alt="">
+        <div class="dua1 d-flex justify-content-center" style="transform: scale(0.9);">
+            <img id="duaimg" src="../images/kalma5.jpg" alt="">
         </div>
         <br>
-        <div class="trans2" style="text-align: end;width: 85%;">
+        <div class="trans2">
             <img id="incre" src="../images/next3.png" alt="">
         </div>
+        
+        </div>
+        
     </div>
     </div>
+    <audio id="audio" class="col-md-3" controls>
+        <source src="../audio/5th_kalima.mp3" type="audio/ogg">
+    </audio>
     
     <script src="../javascript/main3.js"></script>
 </body>
