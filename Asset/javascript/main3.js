@@ -5,7 +5,27 @@ let dua2 = document.getElementById("duaimg");
 
 let audio = document.getElementById("audio");
 
+let change = document.getElementById("img2");
 
+
+
+
+
+let num2 = 0;
+let play = document.querySelector(".play");
+
+play.addEventListener("click",function(){
+    if(num2 == 0){
+    audio.play();
+    change.src = "../images/pause.png";
+    num2 = 1;
+    }else{
+        num2 = 0;
+      change.src = "../images/play2.png";
+    audio.pause();
+    }
+
+})
 
 let imgarr = [
     {
@@ -27,12 +47,10 @@ incre.addEventListener("click",function(){
     if(num1 == 2){
         num1 = 0;
     dua2.src = imgarr[num1].img2;
-    audio.src = imgarr[num1].audios;
 
     
     }else{
     dua2.src = imgarr[num1].img2;
-    audio.src = imgarr[num1].audios;
 
     num1++;
     }
