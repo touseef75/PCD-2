@@ -1,16 +1,11 @@
 
 let incre = document.getElementById("incre");
 
-let head2 = document.getElementById("head2");
 let dua2 = document.getElementById("duaimg");
-let meaning = document.getElementById("meaning");
 
 let audio = document.getElementById("audio");
 
-
-
 let change = document.getElementById("img2");
-
 
 
 
@@ -25,42 +20,43 @@ play.addEventListener("click",function(){
     num2 = 1;
     }else{
         num2 = 0;
-      change.src = "../images/play2.png";
-    audio.pause();
+      change.src = "../images/pla button.png";
+      audio.pause();
+
+
     }
 
-})
+}) 
+
 
 let imgarr = [
     {
-        head2s:"سورة الفلق",
-        meanings : "قُلۡ اَعُوۡذُ بِرَبِّ الۡفَلَقِۙ‏.مِنۡ شَرِّ مَا خَلَقَۙ‏.وَمِنۡ شَرِّ غَاسِقٍ اِذَا وَقَبَۙ‏ <br> وَمِنۡ شَرِّالنَّفّٰثٰتِ فِىۡ الۡعُقَدِۙ‏.وَمِنۡ شَرِّ حَاسِدٍ اِذَا حَسَدَ",
-        img2 :  "../images/quraan.jpg",
+        img2 :  "../images/falaq.jpg",
+
+        audios : "../audio/113-(hamariweb.com).mp3",
+
     },
    {
-        head2s:"سورة الناس",
-        meanings :"قُلۡ اَعُوۡذُ بِرَبِّ النَّاسِۙ. مَلِكِ النَّاسِۙ.اِلٰهِ النَّاسِۙ‏ .مِنۡ شَرِّ الۡوَسۡوَاسِ الۡخَـنَّاسِ <br> الَّذِىۡ يُوَسۡوِسُ فِىۡ صُدُوۡرِ النَّاسِۙ. مِنَ الۡجِنَّةِ وَالنَّاسِ.  ‏ ",
-        img2 :  "../images/quraan.jpg",
 
-    },  
+        img2 :  "../images/nas.jpg ",
+        audios : "../audio/surah nas.mp3",
+
+    },
 ]
+
 
 let num1 = 1;
 incre.addEventListener("click",function(){
     if(num1 == 2){
         num1 = 0;
-    head2.innerHTML = imgarr[num1].head2s;
-    meaning.innerHTML = imgarr[num1].meanings;
+    dua2.src = imgarr[num1].img2;
     audio.src = imgarr[num1].audios;
+
     
     }else{
-    head2.innerHTML = imgarr[num1].head2s;
-    meaning.innerHTML = imgarr[num1].meanings;
+    dua2.src = imgarr[num1].img2;
     audio.src = imgarr[num1].audios;
 
-
     num1++;
-
     }
 })
-

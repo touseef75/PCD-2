@@ -1,73 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>P.C.D 2</title>
+    <title>P.C.D 1</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style.cs/style1.css">
 </head>
 <style>
-    body{
-     overflow-x: hidden;
-    }#meaning{
-       transform: scale(3);text-align: center; 
+    #duaimg{
+        margin-top: -50px;
     }
-    #incre{
+     #incre{
+        background-color: #a4133c;
+        color: white;
+        font-size: 4rem;
+        padding: 0px 30px 0px 30px;
+        border: none;
+        outline: none;
+    }
+    .rows{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .play {
+        width: 100%;
+        margin-top: 500px;
+        text-align: center;
+    }
+
+    .trans2 {
+        width: 85%;
+        text-align: end;
+        margin-top: 500px;
+
+    }
+
+    #incre {
         transform: scale(0.5);
     }
-    div{
-    word-wrap: break-word;
-}
-    @media screen and (max-width:768px){
-			 .cont{
-                 height: 100%;
-                 overflow-x: hidden;
-                 background-position:top;
-             }
-             #head{
-                 transform: scale(0.7);
-             }
-             .trans2{
-                 width: 300%;
-             }#meaning{
-                 transform: scale(1.1);
-                 font-weight: bold;
-             }
-		 } 
-</style>
-<body>
-    <div class="container-fluid cont" style="background-image: url(../images/bk1.jpg);
-        background-size: cover;height: 100vh;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">
-        <br><br><br><br>
-    
-        <div class="head d-flex justify-content-center" style="transform: scale(1);font-weight: bolder;color: green;">
-            <h1 id="head">بِسۡمِ اللهِ الرَّحۡمٰنِ الرَّحِيۡمِ</h1>
-        </div>
-    
-        <br>
-    
-        <div class="dua1 d-flex row" style="text-align: center;">
 
-            <div class="sect1 col-md-12" style="margin-top: 60px;">
-                <p id="head2"style="transform: scale(3.5);text-align: center;">سورة الفلق</p>
-                <br><br><br>
-                <p id="meaning">
-                    قُلۡ اَعُوۡذُ بِرَبِّ الۡفَلَقِۙ‏.مِنۡ شَرِّ مَا خَلَقَۙ‏.وَمِنۡ شَرِّ غَاسِقٍ اِذَا وَقَبَۙ‏ <br> وَمِنۡ شَرِّ
-                    النَّفّٰثٰتِ فِىۡ الۡعُقَدِۙ‏.وَمِنۡ شَرِّ حَاسِدٍ اِذَا حَسَدَ
-                </p>
+    @media screen and (max-width:768px) {
+        .cont {
+            height: 100%;
+            overflow-x: hidden;
+            background-position: top;
+        }
+
+        #head {
+            transform: scale(0.9);
+        }
+
+        #duaimg {
+            transform: scale(0.8);
+        }.rows{
+            display: block;
+        }.play{
+            margin-top: 0;
+        }.trans2{
+            margin-top: 0;
+        }
+    }
+</style>
+
+<body>
+    <div class="container-fluid cont"
+        style="height: 100vh; background-image: url(../images/bk1.jpg);background-size: cover;">
+
+        <div class="rows">
+
+            <div class="play">
+                <img id="img2" src="../images/pla button.png" alt="" width="60">
             </div>
+
+            <div class="dua1" style="transform: scale(0.6);">
+                <img id="duaimg" src="../images/falaq.jpg" alt="">
+            </div>
+
+            <div class="trans2">
+                <button id="incre">Next</button>
+            </div>
+
         </div>
-        <br>
-            <div class="trans2" style="text-align: end;width: 85%;">
-            <img id="incre" src="../images/next3.png" alt="">
-            </div>
-            <audio id="audio" controls>
-                <source src="../audio/113-(hamariweb.com).mp3" type="audio/ogg">
-            </audio>
+
     </div>
     </div>
-    </div>
+
+    <audio id="audio">
+        <source src="../audio/surah nas.mp3" type="audio/ogg">
+    </audio>
+
     <script src="../javascript/main2.js"></script>
 </body>
+
 </html>
