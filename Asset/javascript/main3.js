@@ -47,10 +47,13 @@ incre.addEventListener("click",function(){
     if(num1 == 2){
         num1 = 0;
     dua2.src = imgarr[num1].img2;
+    audio.src = imgarr[num1].audios;
+
 
     
     }else{
     dua2.src = imgarr[num1].img2;
+    audio.src = imgarr[num1].audios;
 
     num1++;
     }
