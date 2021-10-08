@@ -31,14 +31,14 @@ play.addEventListener("click",function(){
 
 let imgarr = [
     {
-        img2 :  "../images/falaq.jpg",
+        img2 :  "../images/falaq (1).jpg",
 
         audios : "../audio/113-(hamariweb.com).mp3",
 
     },
    {
 
-        img2 :  "../images/nas.jpg ",
+        img2 :  "../images/nas (1).jpg ",
         audios : "../audio/surah nas.mp3",
 
     },
